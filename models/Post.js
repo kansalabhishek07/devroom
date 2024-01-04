@@ -25,5 +25,6 @@ const PostSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
+//collection creation
 const Post = mongoose.model("post", PostSchema);
 module.exports = Post;
